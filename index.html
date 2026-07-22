@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niche Tool Kit - SaaS Tools & Apps</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .tool-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .tool-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+        }
+        
+        .tool-header h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+        
+        .tool-emoji {
+            font-size: 2.5em;
+            margin-right: 10px;
+        }
+        
+        .tool-content {
+            padding: 20px;
+        }
+        
+        .tool-description {
+            color: #666;
+            margin-bottom: 15px;
+            min-height: 60px;
+        }
+        
+        .tool-features {
+            list-style: none;
+            margin-bottom: 15px;
+        }
+        
+        .tool-features li {
+            padding: 5px 0;
+            color: #555;
+        }
+        
+        .tool-features li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .tool-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid;
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .btn-primary:hover {
+            background: #764ba2;
+            border-color: #764ba2;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: #667eea;
+            border-color: #667eea;
+        }
+        
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .status-active {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-coming {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+        
+        .github-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .github-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Niche Tool Kit</h1>
+        <p>Powerful SaaS tools & apps for niche entrepreneurs</p>
+    </header>
+    
+    <div class="container">
+        <div class="tools-grid">
+            <!-- Etsy TrueProfit App -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <h2><span class="tool-emoji">📊</span>Etsy TrueProfit</h2>
+                </div>
+                <div class="tool-content">
+                    <p class="tool-description">
+                        Comprehensive profit analysis tool for Etsy sellers. Track costs, calculate true profitability, and optimize pricing.
+                    </p>
+                    <ul class="tool-features">
+                        <li>Real-time profit calculations</li>
+                        <li>Cost tracking & analysis</li>
+                        <li>Pricing optimization</li>
+                        <li>Sales performance metrics</li>
+                    </ul>
+                    <span class="status-badge status-active">✓ Active</span>
+                    <div class="tool-buttons">
+                        <a href="#" class="btn btn-primary">Launch App</a>
+                        <a href="https://github.com/saasnichetoolkit" class="btn btn-secondary">View Repo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more tools below -->
+            <div class="tool-card">
+                <div class="tool-header">
+                    <h2><span class="tool-emoji">🎯</span>New Tool</h2>
+                </div>
+                <div class="tool-content">
+                    <p class="tool-description">
+                        Your next tool coming soon! Add your tools here to showcase your products.
+                    </p>
+                    <ul class="tool-features">
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                    </ul>
+                    <span class="status-badge status-coming">🔄 Coming Soon</span>
+                    <div class="tool-buttons">
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Niche Tool Kit. All rights reserved.</p>
+        <p><a href="https://github.com/saasnichetoolkit" class="github-link">View on GitHub</a></p>
+    </footer>
+</body>
+</html>
